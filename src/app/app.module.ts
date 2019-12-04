@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ColorBlockComponent } from 'src/components/color-block/color-block';
+import { CounterComponent } from 'src/components/counter/counter';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColorBlockComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule,
